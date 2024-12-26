@@ -1,6 +1,7 @@
 import Root from "./components/Theme"; //Light-Dark_Theme
-import Giftcard from "./Giftcard/Giftcard";
-import Fetchdata from "./Fetchdata/Fetchdata";
+import Giftcard from "./Giftcard/Giftcard"; //Giftcard option
+import Fetchdata from "./Fetchdata/Fetchdata"; //Fetching data from Random.me API
+import Customhook from "./custom-hook/Custom-hook"; // Using custom-hooks
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <Root /> 
     <Giftcard />
     <Fetchdata />
+    <Customhook />
   </>
       
 
